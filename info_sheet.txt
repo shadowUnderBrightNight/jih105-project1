@@ -47,8 +47,11 @@ correctly?:
 
 
 Additional comments to the grader:
-Every time I execute the first searching in a run, the runtime of the searching takes a much longer time than any other searchings afterwards. I can't find the problem that causes this problem, because when I executed the same searching afterwards, the runtime of the searching is significantly smaller than the runtime of the first time. 
-I find that the runtime difference is in the DLB.searchingSuggestions(). I commented the section that I tested that causes significance runtime difference. 
+Every time I execute the first searching in a run, the runtime of the searching takes a much longer time than any other searchings afterwards. 
+I can't find the problem that causes this problem, because when I executed the same searching afterwards, 
+the runtime of the searching is significantly smaller than the runtime of the first time. 
+I find that the runtime difference is in the DLB.searchingSuggestions(). 
+I commented the section that I tested that causes significance runtime difference. 
 
 
 
