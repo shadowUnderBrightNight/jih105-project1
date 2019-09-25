@@ -6,20 +6,20 @@ You must submit an information sheet with every assignment.  Also be sure
 to submit all materials following the procedures described on the
 submission procedures page.
 
-Name:  
+Name: Huang Jiangyin
 
-Lecture section:  
+Lecture section:  TU/TH 9:00am-10:15am (no W)
 
-Recitation day and time:  
+Recitation day and time:  Fri 9am-9:50am
 
-Assignment #:  
+Assignment #:  1
 
-Program due date:  
+Program due date:  Sep/25/2019
 
-Handed in date:  
+Handed in date:  Sep/24/2019
 
 Source code file name(s):
-
+ac_test.java
 
 
 
@@ -27,14 +27,15 @@ Source code file name(s):
 
 
 Other file name(s) (if relevant):
+DLB.java
+DLB_user.java
 
 
 
 
 
 
-
-Does your program run without error?:
+Does your program run without error?:Yes
 
 If not, what is/are the error(s) and which parts of your program run
 correctly?:
@@ -46,6 +47,8 @@ correctly?:
 
 
 Additional comments to the grader:
+Every time I execute the first searching in a run, the runtime of the searching takes a much longer time than any other searchings afterwards. I can't find the problem that causes this problem, because when I executed the same searching afterwards, the runtime of the searching is significantly smaller than the runtime of the first time. 
+I find that the runtime difference is in the DLB.searchingSuggestions(). I commented the section that I tested that causes significance runtime difference. 
 
 
 
