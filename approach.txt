@@ -1,0 +1,10 @@
+I use DLB as the data structure of storing the history. 
+
+Each node is given with an additional attribution, int, to state the frequncy. 
+
+The int attribution of nodes whose value is '^', is the freq of the word. 
+
+When fetching the suggestions, I use treeMap to fetch corresponding words and freq. The key is the word, and the value is the freq. 
+
+I used this method because the history data will not be as long as an dictionary, this method will not be significantly slow with small
+data. 
