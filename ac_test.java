@@ -165,32 +165,24 @@ public class ac_test {
      *calculate the predictions based on the userPredictions and dicPredictions
      */
     private static void calPredictions(){
-        int userIndex = 0;
         int predIndex = 0;
-        int dicIndex = 0;
         for (int i = 0; i < userPredictions.length;i++){
             predictions[i] = userPredictions[i];
-            userIndex++;
             predIndex++;
         }
-
-        while(dicIndex<5 & predIndex<5 ) {
-            Boolean add = true;
-            if(dicPredictions[dicIndex]==null){break;}
-            for (int i = 0; i < userPredictions.length; i++) {
-                if (dicPredictions[dicIndex].equals(userPredictions[i])) {
+        for(int i = 0;i < 5;i++){
+            boolean add = true;
+            for(int j=0; j<userPredictions.length;j++) {
+                if (dicPredictions[i].equals(userPredictions[j])) {
                     add = false;
                     break;
                 }
-                i++;
             }
-            if(add){
-                predictions[predIndex] = dicPredictions[dicIndex];
+            if(predIndex<5 & add) {
+                predictions[predIndex] = dicPredictions[i];
                 predIndex++;
             }
-            dicIndex++;
         }
-
     }
 
 }
